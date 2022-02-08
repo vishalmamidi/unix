@@ -1,5 +1,19 @@
 # unix
 
+## stop running command
+```
+ctrl + \
+```
+without this command 
+
+```
+ps
+```
+
+```
+kill -9 <PID>
+```
+
 print date 
 
 ```
