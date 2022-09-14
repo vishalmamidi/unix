@@ -5,6 +5,15 @@
 while sleep 5; do curl -s -k 'GET' -H 'header info' -b 'stuff' 'localhost:8080/log'; done
 ```
 
+## extract tgz
+```
+tar --extract --file ./kafka**.tgz
+```
+
+```
+tar -xvzf ./kafka**.tgz
+```
+
 
 
 ## stop running command
