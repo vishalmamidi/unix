@@ -20,6 +20,17 @@ tar -xvzf ./kafka**.tgz
 ```
 
 
+## upper to lower and vice versa 
+```
+echo "VISHAL" | awk '{print tolower($0)}'
+echo "VISHAL" | tr '[:upper:]' '[:lower:]'
+echo "VISHAL" | "${$0,,}" # not working
+```
+```
+
+```
+
+
 
 ## stop running command
 ```
